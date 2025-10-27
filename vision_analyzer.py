@@ -6,7 +6,7 @@ from PIL import Image
 from dotenv import load_dotenv
 
 load_dotenv()
-RAINBOW_API_KEY = os.getenv("RAINBOW_API_KEY")
+ROBOFLOW_API_KEY = os.getenv("ROBOFLOW_API_KEY")
 
 def analyze_sketch(image: Image.Image, progress_callback=None):
 	if progress_callback:
@@ -27,7 +27,7 @@ def analyze_sketch(image: Image.Image, progress_callback=None):
 	# Call object detection model
 	CLIENT = InferenceHTTPClient(
 		api_url="https://serverless.roboflow.com",
-		api_key=RAINBOW_API_KEY
+		api_key=ROBOFLOW_API_KEY
 	)
 	# Use same model ID as in test_obj_detection.py
 	result = CLIENT.infer(image_path, model_id="wall-detection-xi9ox/2")
