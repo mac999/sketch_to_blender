@@ -1,0 +1,6 @@
+streamlit
+pillow
+requests
+numpy
+pytesseract
+inference-sdk
