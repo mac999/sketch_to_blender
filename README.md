@@ -10,6 +10,9 @@ Sketch drawing image to Blender objecs App that converts architectural sketch fl
 ## Introduction
 This project analyzes architectural sketch images to detect walls, doors, and windows, then generates a Blender script to model the building in 3D. It uses object detection, OCR, and a local LLM (Ollama) for script generation.
 
+## Version
+- 0.1: draft version.
+
 ## Installation
 1. Clone the repository:
    ```sh
@@ -42,6 +45,7 @@ Taewook Kang (laputa99999@gmail.com)
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
 
