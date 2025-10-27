@@ -1,4 +1,6 @@
-
+# title: Blender Script Generator
+# description: Generates Blender Python scripts from parsed sketch data using Ollama LLM.
+# contact: Taewook Kang(laputa99999@gmail.com)
 import requests, json, ast, openai, math
 from ollama import chat
 from ollama import ChatResponse
