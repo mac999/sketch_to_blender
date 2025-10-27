@@ -4,7 +4,7 @@ from io import BytesIO
 from vision_analyzer import analyze_sketch
 from script_generator import generate_blender_script
 
-# PRD-based basic settings
+# Streamlit app configuration
 st.set_page_config(
 	page_title="Sketch to Blender",
 	layout="wide",
