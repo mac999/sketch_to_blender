@@ -3,7 +3,8 @@
 Sketch drawing image to Blender objecs App that converts architectural sketch floor plans into Blender Python scripts using computer vision and LLMs. This is demo version for researching the object reconstruction from raster images in construction domain.
 
 <p align="center">
-   <img src="https://github.com/mac999/sketch_to_blender/blob/main/doc/img1.jpg" width="400"></img>
+   <img src="https://github.com/mac999/sketch_to_blender/blob/main/doc/img1.jpg" width="400"></img></br>
+   <img src="https://github.com/mac999/sketch_to_blender/blob/main/doc/img2.jpg" width="400"></img>
 </p>
 
 ## Introduction
@@ -41,6 +42,7 @@ Taewook Kang (laputa99999@gmail.com)
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
 
