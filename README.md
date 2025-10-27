@@ -1,6 +1,6 @@
 # Sketch to Blender
 
-Sketch image to Blender objecs App that converts architectural sketch floor plans into Blender Python scripts using computer vision and LLMs. This is demo version for researching the object reconstruction from raster images in construction domain.
+Sketch drawing image to Blender objecs App that converts architectural sketch floor plans into Blender Python scripts using computer vision and LLMs. This is demo version for researching the object reconstruction from raster images in construction domain.
 
 ## Introduction
 This project analyzes architectural sketch images to detect walls, doors, and windows, then generates a Blender script to model the building in 3D. It uses object detection, OCR, and a local LLM (Ollama) for script generation.
@@ -31,4 +31,5 @@ This project analyzes architectural sketch images to detect walls, doors, and wi
 Taewook Kang (laputa99999@gmail.com)
 
 ## License
+
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
