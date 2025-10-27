@@ -19,8 +19,12 @@ This project analyzes architectural sketch images to detect walls, doors, and wi
    ```sh
    pip install -r requirements.txt
    ```
-3. (Optional) Install and run Ollama locally for LLM-based script generation:
+3. Install and run Ollama locally for LLM-based script generation:
    - See [Ollama documentation](https://ollama.com/) for setup instructions.
+   - Download LLM weight file like gemma3
+
+4. Make .env:
+   - Setup RAINBOW_API_KEY after login Rainbow flow(https://app.roboflow.com)
 
 ## Usage
 1. Start the Streamlit app:
@@ -37,4 +41,5 @@ Taewook Kang (laputa99999@gmail.com)
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
