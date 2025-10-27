@@ -24,7 +24,7 @@ This project analyzes architectural sketch images to detect walls, doors, and wi
    - Download LLM weight file like gemma3
 
 4. Make .env:
-   - Setup RAINBOW_API_KEY after login roboflow(https://app.roboflow.com)
+   - Setup ROBOFLOW_API_KEY after login roboflow(https://app.roboflow.com)
 
 ## Usage
 1. Start the Streamlit app:
@@ -41,6 +41,7 @@ Taewook Kang (laputa99999@gmail.com)
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
 
