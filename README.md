@@ -35,7 +35,7 @@ This project analyzes architectural sketch images to detect walls, doors, and wi
    ```sh
    streamlit run app.py
    ```
-2. Upload a sketch image (PNG/JPG) via the web interface.
+2. Upload a sketch image (PNG/JPG) (refer to samples folder) via the web interface.
 3. View the detected elements and generated Blender script.
 4. Download the script and use it in Blender.
 
@@ -45,6 +45,7 @@ Taewook Kang (laputa99999@gmail.com)
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 
 
