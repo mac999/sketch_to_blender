@@ -5,7 +5,7 @@ import requests, json, ast, openai, math
 from ollama import chat
 from ollama import ChatResponse
 from openai import OpenAI
-
+ 
 OLLAMA_API_URL = "http://localhost:11434"
 OLLAMA_MODEL = "gemma3" # "codegemma:7b" or "qwen2.5-coder:7b". Adjust as needed.
 MAX_RETRIES = 2
